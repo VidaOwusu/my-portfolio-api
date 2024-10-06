@@ -18,6 +18,7 @@ const userSchema = new Schema({
     projects: [{ type: Types.ObjectId, ref: 'Project' }],
     achievements: [{ type: Types.ObjectId, ref: 'Achievement' }],
     volunteering: [{ type: Types.ObjectId, ref: 'Volunteering' }],
+    medals:{ type: String }
   
 
 }, {
